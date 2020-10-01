@@ -11,8 +11,8 @@ public class Main {
         Scanner input = new Scanner(System.in);
 
         System.out.println("How would you like to proceed"+
-                "\n1. Enter 1 to register"+
-                "\n2. Enter 2 to login");
+                "\n1. Enter 1 to register yourself"+
+                "\n2. Enter 2 to login here");
         int userInput = input.nextInt();
 
         if(userInput==1){
